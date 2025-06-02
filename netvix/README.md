@@ -1,6 +1,6 @@
 # NetVix — Network Performance Visualizer (CLI Tool)
 
-**NetViz** is a terminal-based tool I built to see how long a website takes to respond, and *why*. Is it DNS? TLS? TCP? Something else?
+**NetVix** is a terminal-based tool I built to see how long a website takes to respond, and *why*. Is it DNS? TLS? TCP? Something else?
 
 Built with Go, it gives a clear breakdown of what's happening under the hood when your browser (or HTTP client) connects to a site. 
 
@@ -18,7 +18,7 @@ Built with Go, it gives a clear breakdown of what's happening under the hood whe
 ### Here's what it looks like in action:
 
 ```bash
-$ ./netviz https://google.com https://github.com
+$ ./netvix https://google.com https://github.com
 ```
 ![Output of the Above Code](./screenshot.png)
 
@@ -28,15 +28,15 @@ It works for **one or multiple URLs** and helps you compare performance at a gla
 ### Build it
 
 ```bash
-git clone https://github.com/my-systems-journey/netviz.git
-cd netviz
-go build -o netviz
+git clone https://github.com/my-systems-journey/netvix.git
+cd netvix
+go build -o netvix
 ```
 
 ### Run it
 
 ```bash
-./netviz https://google.com https://github.com
+./netvix https://google.com https://github.com
 ```
 
 You'll see:
